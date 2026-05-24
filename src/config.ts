@@ -62,7 +62,7 @@ export const siteConfig = {
     {
       company: "MIT — Teaching",
       title: "Graduate TA & Lab Assistant",
-      dateRange: "Sept 2024 - Present",
+      dateRange: "Sept 2024 - May 2026",
       bullets: [
         "Lead recitations and lab sessions for introductory programming courses (Python)",
         "Design problem sets, run office hours, and mentor lab assistants",
