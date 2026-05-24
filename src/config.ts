@@ -89,21 +89,21 @@ export const siteConfig = {
       ],
     },
     {
-      company: "RAS Legal Group",
-      title: "DevOps Specialist Intern",
-      dateRange: "May 2023 - Aug 2023",
-      bullets: [
-        "Diagnosed and resolved software issues for a dispersed team of 1100+ employees across 17 states",
-        "Automated legal document generation using SQL to extract case information from the firm's database",
-      ],
-    },
-    {
       company: "Physician-Scientist Impact Group — MIT",
       title: "Undergraduate Researcher",
       dateRange: "Feb 2024 - May 2024",
       bullets: [
         "Researched author name disambiguation techniques and clustering methods",
         "Analyzed patents, grants, and publications to quantify physician-scientist impact",
+      ],
+    },
+    {
+      company: "RAS Legal Group",
+      title: "DevOps Specialist Intern",
+      dateRange: "May 2023 - Aug 2023",
+      bullets: [
+        "Diagnosed and resolved software issues for a dispersed team of 1100+ employees across 17 states",
+        "Automated legal document generation using SQL to extract case information from the firm's database",
       ],
     },
   ],
