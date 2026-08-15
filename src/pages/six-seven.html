@@ -26,6 +26,20 @@ body {
 }
 </style>
 
+<!-- confetti effect -->
+<script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@4/tsparticles.confetti.bundle.min.js"></script>
+
+</head>
+
+<body>
+<div class="center">
+    <h1>67 Simulator</h1>
+    <p id="count">Count: 0</p>
+
+    <img id="shrugcat" src="/devportfolio/cat_shrug.png" alt="shrugging cat">
+    <button onclick="flip()">six seven</button>
+</div>
+
 <script>
     let count = 0
     function flip() {
@@ -36,18 +50,31 @@ body {
         count++;
 
         counter.innerHTML = "Count: " + count;
+
+        if (count === 67) {
+            confetti(
+                {
+                "count": 80,
+                "spread": 55,
+                "angle": 90,
+                "startVelocity": 45,
+                "gravity": 10,
+                "zIndex": 10,
+                "colors": [
+                    "#ff577f",
+                    "#ffd166",
+                    "#06d6a0",
+                    "#4cc9f0"
+                ],
+                "position": {
+                    "x": 50,
+                    "y": 50
+                }
+                }
+            );
+        }
     }
 </script>
-
-</head>
-<body>
-<div class="center">
-    <h1>67 Simulator</h1>
-    <p id="count">Count: 0</p>
-
-    <img id="shrugcat" src="/devportfolio/cat_shrug.png" alt="shrugging cat">
-    <button onclick="flip()">six seven</button>
-</div>
 
 </body>
 </html>
